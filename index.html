@@ -10,25 +10,16 @@
     <div class="container">
         <h1>MY TO-DO LIST</h1>
 
-        <div class="input-group">
-            <input type="text" placeholder="Add your task">
-            <button>Add</button>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add your task">
+            <button onclick="addTask()">Add</button>
         </div>
 
-        <div class="list-containers">
-            <ul>
-                <li>
-                    <span>Task 1</span>
-                    <span class="delete-btn">X</span>
-                </li>
-                <li>
-                    <span>Task 2</span>
-                    <span class="delete-btn">X</span>
-                </li>
-                <li>
-                    <span class="completed">Task 3</span>
-                    <span class="delete-btn">X</span>
-                </li>
+        <div> 
+            <ul id="list-container">
+                <!-- <li class="checked"></li> -->
+                <!-- <li></li> -->
+                <!-- <li></li> -->
             </ul>
         </div>
     </div>
